@@ -12,13 +12,13 @@ rl.question("What's your name? (or Nickname)\n", (name) => {
         rl.question("What's your favourite thing to eat for that meal?\n", (food) => {
           rl.question("Which sport is your absolute favourite?\n", (sport) => {
             rl.question("What is your superpower? In a few words, tell us what you are amazing at!\n", (superpower) => {
-              console.log(`Here is your generated profile:\n${name} loves listening to ${listen} while ${activity}, devouring ${food} for ${meal}, prefers ${sport} over any other sport, and is amazing at ${superpower}.`)
+              console.log(`Here is your generated profile:\n${name} loves listening to ${listen} while ${activity}, devouring ${food} for ${meal}, prefers ${sport} over any other sport, and is amazing at ${superpower}.`);
 
               rl.close();
-            })
-          })
-        })
-      })
-    })
-  })
-})
+            });
+          });
+        });
+      });
+    });
+  });
+});
